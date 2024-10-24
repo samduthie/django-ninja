@@ -1,0 +1,11 @@
+24.10.2021 - 1.0.0 - [project-change-log.log] - initial project setup
+
+command: apidemo/manage.py runserver -> into docker-compose.yaml (not working)
+added URL code from https://django-ninja.dev/#installation
+
+created django app:
+    django-admin startproject apidemo
+
+init original docker files and exec'd into new container
+    container exec -it [container-id] bash
+
